@@ -1,0 +1,7 @@
+mutation removeTask($id: ID) {
+  removeTodo(id: $id) {
+    title,
+    id,
+    completed
+  }
+}

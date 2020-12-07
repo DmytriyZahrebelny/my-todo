@@ -1,0 +1,7 @@
+mutation updateTask($id: ID) {
+  updateTodo(id: $id) {
+    title,
+    id,
+    completed
+  }
+}

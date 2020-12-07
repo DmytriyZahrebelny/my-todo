@@ -1,0 +1,7 @@
+query getAllTodo {
+	getAllTodos {
+		id
+		title
+		completed
+	}
+}
